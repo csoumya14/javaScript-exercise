@@ -1,0 +1,49 @@
+body {
+  font-family: 'Martel', serif;
+  background-image: url('./Images/binary.jpg');
+}
+#container {
+  height: 405px;
+  width: 460px;
+  margin: auto;
+  margin-top: 200px;
+  border: 2px;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  color: #fcda5e;
+  background-image: linear-gradient(-225deg, #2cd8d5 0%, #8e37d7 100%);
+}
+#binary {
+  background: #fff;
+  border: 1px solid red;
+  font-size: 17px;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  border-radius: 60px;
+  font-weight: 100;
+  letter-spacing: 0.01em;
+  position: relative;
+  z-index: 1;
+}
+#button {
+  margin-top: 35px;
+  background-color: #f66fea;
+  border: 1px solid black;
+  line-height: 0;
+  font-size: 17px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 20px 15px;
+  border-radius: 60px;
+  color: #fcda5e;
+  font-weight: 100;
+  letter-spacing: 0.01em;
+  position: relative;
+  z-index: 1;
+}
+#dec {
+  font-size: 60px;
+}
